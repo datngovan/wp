@@ -2,6 +2,7 @@ Post Submission A1 Updates
 Create a new file call A1
 add avatar
 add RMIT logo 
+change index file direction
 
 Post Submission A2 Updates 
 
