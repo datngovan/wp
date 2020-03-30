@@ -1,0 +1,52 @@
+p + p { 
+    color: purple;
+}
+p + p + p { 
+    color: red; }
+
+a:visited {
+    color: hotpink;
+}
+a:active {
+    color: yellow;
+}
+
+a:hover{
+    color: green;
+}  
+
+ol li:first-child{
+    color: green;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+tr:first-child{
+    background-color: yellow
+}
+tr:nth-child(even){
+    background-color: green;
+}
+
+p::first-line {
+    color: darkcyan;
+    font-style: italic;
+    font-size: 120%;
+}
+p::first-letter{
+    font-size: 200%;
+}
+p::selection{
+    color: rgba(0,0,0,0);
+}
+p::before, p::after { 
+    content: url('https://wp-rmitvn.github.io/WebProgramming/img/image1.png'); 
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 150%;
+  }
