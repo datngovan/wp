@@ -5,7 +5,8 @@ add RMIT logo
 change index file direction
 
 Post Submission A2 Updates 
-
+add prallax 
+add 4 sections 
 
 
 Post Submission A3 Updates 
