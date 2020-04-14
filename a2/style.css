@@ -1,16 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100%;
+}
+nav{
+    text-align: right;
+}
 header{
     background-color: #343a40;
 }
-.parallax {
+#brand{
+    font-family: Hepta, Slap;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+.parallax1 {
     /* The image used */
     background-image: url("3D.jpg");
   
-    /* Set a specific height */
-    min-height: 1000px; 
+    /* Set a specific height */ 
+    min-height: 1000px;
+    min-width: 100%; 
   
     /* Create the parallax scrolling effect */
+    position: relative;
     background-attachment: fixed;
-    background-position: right;
+    background-position:  right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .row{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .blue-bg{
+    background-image: url(blue-bg.jpg);
+    min-height: 200px;
+    min-width: 100%; 
+  }
+  .blue-bg2{
+    background-image: url(blue-bg2.jpg);
+    min-height: 200px;
+    min-width: 100%; 
+    position: relative;
+    background-attachment: fixed;
+    background-position:  right;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -21,32 +61,54 @@ p{
     display: block;
     text-align: center;
     color: white;
+    text-align: center;
 }
 .text{
     color: white;
     font-size: 18px;
 }
+.price img{
+    width: 200px;
+}
 #showing{
     border: none;
+    background-image: url(gray-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#synopsis{
+    background-image: url(brown-bg.jpg);
 }
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 20px auto;
     width: 250px;
   }
+.card-img{
+    width: 250px;
+    height:450px;
+}
   h1{
     font-size: 20px;
     text-align: center;
     color: white;
+    margin: 20px 0 50px 0;
   }
-.col, .col-3{
-      background-color: #343a40;
-  }
+
 #booking{
+    margin-top: 20px;
+    margin-left: 20px;
     display: inline-block;
     border: 5px;
     border-style: outset;
     border-color: white;
-    margin-left: 20px;
+}
+#plot{
+    text-align: justify;
+    margin: 100px 100px 100px 100px;
+}
+.card{
+    background-color: #343a40;
+    margin-left: auto;
+    margin-right: auto;
 }
